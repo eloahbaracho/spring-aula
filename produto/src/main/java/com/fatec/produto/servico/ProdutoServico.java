@@ -1,5 +1,6 @@
 package com.fatec.produto.servico;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,11 +29,11 @@ public class ProdutoServico implements IProdutoServico {
 			 if (p.getId().equals(i.getId())) {
 			 c = new Catalogo(p.getId(), p.getDescricao(), p.getCategoria(),
 			p.getCusto(),p.getQuantidadeNoEstoque(), i.getArquivo());
-			 lista.add(c);
+			 Lista.add(c);
 			 }
 			 }
 			 }
-			 return lista;
+			 return Lista;
 	}
 
 }
