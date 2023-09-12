@@ -52,7 +52,7 @@ public class ImagemServico implements IImagemServico {
 			return Optional.empty();
 		}
 	}
-
+/* comentário */
 	@Override
 	public List<Imagem> getAll() {
 		return imagemRepository.findAll();
