@@ -16,6 +16,7 @@ import com.fatec.produto.model.Produto;
 public class ProdutoServico implements IProdutoServico {
 	@Autowired
 	IProdutoRepository repositoryP;
+	@Autowired
 	IImagemRepository repositoryI;
 
 	@Override
