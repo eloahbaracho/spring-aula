@@ -2,6 +2,7 @@ package com.fatec.produto.servico;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -35,6 +36,36 @@ public class ProdutoServico implements IProdutoServico {
 			 }
 			 }
 			 return Lista;
+	}
+
+	@Override
+	public List<Catalogo> consultaPorDescricao(String descricao) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Produto> cadastrar(Produto produto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Produto> consultarPorId(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Produto> atualizar(Long id, Produto produto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void excluir(Long id) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
